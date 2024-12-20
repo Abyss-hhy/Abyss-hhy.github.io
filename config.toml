@@ -1,6 +1,6 @@
 baseURL = "https://Abyss-hhy.github.io/"
 languageCode = "zh-CN"
-title = "我的 Markdown 网站"
+title = "Abyss.Markdown"
 theme = "ananke"
 
 [params]
