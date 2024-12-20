@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on 我的 Markdown 网站</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on 我的 Markdown 网站</description>
+    <generator>Hugo</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Fri, 20 Dec 2024 12:04:50 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Another Example</title>
+      <link>http://localhost:1313/posts/another-example/</link>
+      <pubDate>Fri, 20 Dec 2024 12:04:50 +0800</pubDate>
+      <guid>http://localhost:1313/posts/another-example/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>示例页面</title>
+      <link>http://localhost:1313/posts/example/</link>
+      <pubDate>Sat, 27 Apr 2024 12:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/posts/example/</guid>
+      <description>&lt;h1 id=&#34;这是一个示例页面&#34;&gt;这是一个示例页面&lt;/h1&gt;&#xA;&lt;p&gt;欢迎来到我的 Markdown 网站！&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

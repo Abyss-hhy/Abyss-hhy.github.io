@@ -1,0 +1,7 @@
+baseURL = "https://Abyss-hhy.github.io/"
+languageCode = "zh-CN"
+title = "我的 Markdown 网站"
+theme = "ananke"
+
+[params]
+  description = "用于存放和展示我的 Markdown 文件"
