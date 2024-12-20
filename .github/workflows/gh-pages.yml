@@ -1,4 +1,11 @@
-name: Deploy Hugo site to GitHub Pages
+- name: Deploy to GitHub Pages
+  uses: peaceiris/actions-gh-pages@v4
+  with:
+    github_token: ${{ secrets.PAT_TOKEN }}
+    publish_dir: ./public
+    publish_branch: main
+    destination_dir: '/'
+
 
 on:
   push:
