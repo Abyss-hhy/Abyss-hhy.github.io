@@ -1,9 +1,13 @@
-name: GitHub Pages
+name: Deploy Hugo site to GitHub Pages
 
 on:
   push:
     branches:
       - main
+    # 可选：仅当特定路径下的文件更改时触发
+    # paths:
+    #   - 'content/**'
+    #   - 'config.toml'
 
 jobs:
   build-deploy:
@@ -13,8 +17,8 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
         with:
-          submodules: true  # 如果你使用了子模块
-          fetch-depth: 0    # 确保完整的 Git 历史
+          submodules: true
+          fetch-depth: 0  # 确保获取完整的 Git 历史
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
@@ -29,7 +33,5 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
-          # 对于用户或组织 GitHub Pages，目标分支应为 main
           publish_branch: main
-          # 将生成的内容部署到根目录
           destination_dir: '/'
